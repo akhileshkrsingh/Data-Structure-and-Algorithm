@@ -24,7 +24,7 @@ int main(){
     int graph[nodes+1][edges+1];
     for(int i=0;i<edges;i++){
         int node,adjnode,weight;
-        cin>>node>>adjnode>weight;
+        cin>>node>>adjnode>>weight;
         graph[node][adjnode]=weight;
         graph[adjnode][node]=weight;
     }
